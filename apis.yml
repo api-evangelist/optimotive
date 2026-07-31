@@ -1,8 +1,20 @@
 aid: optimotive
 name: Optimotive
-description: Optimotive is a company surfaced as a portfolio company of version-one-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Optimotive is an autonomous-robotics company building a vertically integrated fleet
+  of advanced robots for the toughest, most extreme environments across construction,
+  mining, and oil and gas. Its robots take on the mundane, repetitive, and hazardous
+  tasks that burden human workers, doing it cost-effectively. Two products are already
+  deployed with major market players: IRIS, a wheeled autonomous robot that captures
+  large-scale site data, and BOX, which provides a reliable home base and on-site
+  infrastructure for entirely self-sufficient robots. Two more robots are joining the
+  fleet: MULE for onsite material handling and SCRUBBLES for site cleanup. The company
+  is vertically integrated from developing its own AI to 3D printing its robots, owning
+  the full hardware and software stack. Founded by CEO Scott Fairley and based in
+  Windsor, Ontario, Canada, Optimotive raised a 2M USD seed round led by Version One
+  Ventures in September 2024, with participation from Garage and NewLab. As a physical
+  robotics hardware business, Optimotive publishes no public API, developer portal, or
+  SDK at this time.
 url: https://raw.githubusercontent.com/api-evangelist/optimotive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +22,49 @@ x-backed-by:
 - version-one-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.optimotive.io/favicon.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Robotics
+- Autonomous Robots
+- Construction
+- Mining
+- Oil and Gas
+- Hardware
+- Artificial Intelligence
 apis: []
+common:
+- type: Website
+  url: https://www.optimotive.io/
+- type: About
+  url: https://www.optimotive.io/company
+- type: LinkedIn
+  url: https://www.linkedin.com/company/optimotive-technologies
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/optimotive-technologies
+- type: Investor
+  url: https://versionone.vc/announcing-optimotive/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1

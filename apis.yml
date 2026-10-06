@@ -47,7 +47,7 @@ accessModel:
 image: https://www.optimotive.io/favicon.png
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Robotics
@@ -59,6 +59,8 @@ tags:
 - Artificial Intelligence
 apis: []
 common:
+- url: https://www.optimotive.io/blog/
+  type: Blog
 - type: Website
   url: https://www.optimotive.io/
 - type: About
